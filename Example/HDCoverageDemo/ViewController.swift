@@ -69,10 +69,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func outSFrameworkOCAction(_ sender: UIButton) {
-        HDOCSFramework.frameworkOCStaticFrameworkAction(sender.tag)
+        HDOCFramework.frameworkOCAction(sender.tag)
     }
     
     @IBAction func outSFrameworkSwiftAction(_ sender: UIButton) {
-        HDSwiftSFramework.outSFrameworkSwiftAction(sender.tag)
+        HDSwiftFramework.frameworkSwiftAction(sender.tag)
     }
 }
