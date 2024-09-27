@@ -39,6 +39,12 @@ class ViewController: UIViewController {
         }
         
         view.addSubview(imageView2)
+        testKAKA()
+    }
+    
+    func testKAKA() {
+        let jj = UILabel(frame: .zero)
+        view.addSubview(jj)
     }
 
     
