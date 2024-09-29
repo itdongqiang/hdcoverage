@@ -71,7 +71,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func podSwiftAction(_ sender: UIButton) {
-        
+        print("kakakaka")
     }
     
     @IBAction func outSFrameworkOCAction(_ sender: UIButton) {
