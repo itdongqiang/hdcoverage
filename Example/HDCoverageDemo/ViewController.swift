@@ -39,19 +39,7 @@ class ViewController: UIViewController {
         }
         
         view.addSubview(imageView2)
-        testKAKA()
-        testKAKA1915()
     }
-    
-    func testKAKA1915() {
-        
-    }
-    
-    func testKAKA() {
-        let jj = UILabel(frame: .zero)
-        view.addSubview(jj)
-    }
-
     
     @IBAction func projectOCAction(_ sender: UIButton) {
         HDOC.projectOCAction(sender.tag)
@@ -76,11 +64,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func podSwiftAction(_ sender: UIButton) {
-        print("kakakaka")
+        
     }
     
     func test2() {
-        print("test again")
+        
     }
     
     @IBAction func outSFrameworkOCAction(_ sender: UIButton) {
