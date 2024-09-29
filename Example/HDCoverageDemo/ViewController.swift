@@ -40,6 +40,7 @@ class ViewController: UIViewController {
         
         view.addSubview(imageView2)
         testKAKA()
+        testKAKA1915()
     }
     
     func testKAKA1915() {
