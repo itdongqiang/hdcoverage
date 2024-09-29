@@ -41,6 +41,7 @@ class ViewController: UIViewController {
         view.addSubview(imageView2)
         
         kaka()
+        kaka2()
     }
     
     func kaka() {
@@ -52,6 +53,11 @@ class ViewController: UIViewController {
         HDOC.projectOCAction(sender.tag)
         
         
+    }
+    
+    func kaka2() {
+        let a = 100
+        print("kaka k k", a)
     }
     
     @IBAction func projectSwiftAction(_ sender: UIButton) {
