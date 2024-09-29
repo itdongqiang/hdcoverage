@@ -39,6 +39,13 @@ class ViewController: UIViewController {
         }
         
         view.addSubview(imageView2)
+        
+        kaka()
+    }
+    
+    func kaka() {
+        let a = 100
+        print("kaka k k", a)
     }
     
     @IBAction func projectOCAction(_ sender: UIButton) {
