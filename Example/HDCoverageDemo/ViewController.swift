@@ -74,6 +74,10 @@ class ViewController: UIViewController {
         print("kakakaka")
     }
     
+    func test2() {
+        print("test again")
+    }
+    
     @IBAction func outSFrameworkOCAction(_ sender: UIButton) {
         HDOCFramework.frameworkOCAction(sender.tag)
     }
